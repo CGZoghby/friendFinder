@@ -1,9 +1,9 @@
 //save app data inside here as an array of objects. Each individual object within the array should look like:
 var friendsArray = [
     {
-        name: "Ahmed",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+        name: "SpongeBob",
+        photo: "https://i.pinimg.com/originals/41/21/e8/4121e8a4c08efb0141d70be9460f0037.jpg",
+        scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
     },
     {
         name: "Tim",

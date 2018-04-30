@@ -1,0 +1,3 @@
+# Welcome to my Friend Finder App!
+
+I'm writing this app for the University of Richmond coding bootcamp to demonstrate my knowledge of node express. The app takes you to a ten question survey where, after linking your name, a picture of yourself (I like to use placeholder cats), and answering questions, the app makes an ajax call to the express server and compares your scores against everyone on record. In this case, just Tim from Monty Python and the Holy Grail. Oh and spongebob.

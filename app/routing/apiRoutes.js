@@ -32,16 +32,13 @@ module.exports = function (app) {
         console.log(totalDifference);
         friendsData.push(req.body); //finally, after calculating the scores for everyone there, push the just submitted scores to friendsData
         //now find the smallest totalDifference of all possible ones available
-        var smallestDiff = 41; //if you are 100% opposite someone, your max difference is 40. So making it 41 so the if-logic will always work below
+        var smallestDiff = 41; //if you are 100% opposite someone, your max difference is 40. So making it 41 so that the if-logic will always work below
         for (var i = 0; i < totalDifference.length; i++) {
             var tempSmallestDiff = parseInt(Object.keys(totalDifference[i])[0]);
             if (tempSmallestDiff < smallestDiff) {
                 smallestDiff = tempSmallestDiff;
             }
         }
-        console.log(smallestDiff)
-        console.log(Object.keys(totalDifference[0]))
-        console.log(Object.keys(totalDifference[0]).indexOf(String(smallestDiff)))
         //then find which user matches that set of scores
         //and return their data
         for (var i = 0; i < totalDifference.length; i++) {
